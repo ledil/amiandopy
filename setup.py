@@ -1,7 +1,5 @@
 from setuptools import setup
 
-readme = open('README.rst').read()
-
 # Loading the version with ``from facepy import __version__`` will
 # cause setuptools to attempt to import dependencies that we have no
 # guarantee exist on the system yet, so we'll have to use ``execfile`` to
@@ -12,7 +10,7 @@ setup(
     name = 'amiandopy',
     version = __version__,
     description = 'amiandoPy makes it really easy to interact with amiando\'s API',
-    long_description = readme + '\n\n',
+    long_description = 'amiandoPy makes it really easy to interact with amiando\'s API',
     author = 'Leonardo Di Lella',
     author_email = 'leonardo.dilella@mobileapart.com',
     url = 'http://github.com/ledil/amiandopy',
