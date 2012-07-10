@@ -8,7 +8,7 @@ Usage
 
 ::
 
-    from amiando_api import AmiandoAPI
+    from amiandopy.amiando_api import AmiandoAPI
 
     graph = AmiandoAPI(amiando_api_key)
 
